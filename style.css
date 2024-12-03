@@ -1,1 +1,155 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+.marquee {
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fbc02d;
+}
+
+.head {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 33%;
+  height: 13vh;
+}
+.head img {
+  height: 75px;
+}
+.head .search input {
+  padding: 14px 5px 14px 5px;
+  background-color: rgb(236, 230, 230);
+  font-size: 15px;
+  border: none;
+}
+.head .search button {
+  background-color: red;
+  padding: 15px 10px 14px 10px;
+  border: none;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fbc02d;
+  height: 4vh;
+}
+#navbar nav {
+  display: flex;
+}
+#navbar nav ul {
+  display: flex;
+  gap: 50px;
+}
+#navbar nav ul li {
+  list-style: none;
+}
+#navbar nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+#section1 {
+  margin-top: 20px;
+  background: url(https://www.haldirams.com/media/wysiwyg/Sugar_Free_Web_1920x600px_1.jpg) no-repeat center center/cover;
+  height: 70vh;
+}
+
+#section2 {
+  margin-top: 70px;
+}
+#section2 h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.box {
+  border: 1px solid rgb(206, 202, 202);
+  padding-top: 10px;
+  padding-bottom: 7px;
+}
+.box img {
+  height: 250px;
+}
+
+.boxes {
+  margin-left: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.boxes .price {
+  text-align: center;
+}
+.boxes .price p {
+  padding-top: 10px;
+}
+.boxes .price p button {
+  background-color: orangered;
+  padding: 15px 90px 15px 90px;
+  border: none;
+}
+.boxes .price p button a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 15px 30px 15px 30px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.cards img {
+  width: 400px;
+  height: 400px;
+}
+.cards .cardprice {
+  text-align: center;
+}
+
+#section5 h1 {
+  font-size: 50px;
+}
+
+#section6 {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#section6 img {
+  width: 620px;
+  height: 350px;
+}/*# sourceMappingURL=style.css.map */

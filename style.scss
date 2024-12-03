@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+.marquee{
+     padding-left: 20px;
+     padding-right: 20px;
+     background-color: #fbc02d;
+}
+.head{
+   padding-left: 20px;
+   padding-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 33%;
+    height: 13vh;
+    img{
+        height: 75px;
+    }
+    .search{
+        input{
+            padding: 14px 5px 14px 5px;
+            background-color: rgb(236, 230, 230);
+            font-size: 15px;
+            border: none;
+        }
+        button{
+            background-color: red;
+            padding: 15px 10px 14px 10px;
+            border: none;
+        }
+    }
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbc02d;
+    height: 4vh;
+    nav{
+    display: flex;
+    
+    ul{
+        display: flex;
+        gap: 50px;
+        
+            li{   list-style: none;
+                
+                a{
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        
+    }
+    }
+}
+
+#section1{
+    margin-top: 20px;
+    background: url(https://www.haldirams.com/media/wysiwyg/Sugar_Free_Web_1920x600px_1.jpg)no-repeat center center/cover;
+    height: 70vh;
+}
+ 
+#section2{
+    margin-top: 70px;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
+}
+
+.box{   img{
+            height: 250px;
+           }
+        border: 1px solid rgb(206, 202, 202);
+        padding-top: 10px;
+        padding-bottom: 7px;
+}
+.boxes{
+    margin-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    .price{   
+        text-align: center;
+        p{
+            padding-top: 10px;
+            button{
+                background-color: orangered;
+                padding: 15px 90px 15px 90px;
+                border: none;
+                a{
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.btn{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: orangered;
+        color: white;
+        border: none;
+        padding: 15px 30px 15px 30px;
+    }
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    img{
+        width: 400px;
+        height: 400px;
+    }
+    .cardprice{
+        text-align: center;
+    }
+}
+#section5{
+    h1{
+        font-size: 50px;
+    }
+}
+#section6{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    img{
+    width: 620px;
+    height: 350px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// body {
+//     font-family: Arial, sans-serif;
+//     margin: 0;
+//     padding: 0;
+//     background-color: #f8f8f8;
+// }
+// .promo-section {
+//     background-color: #b00000;
+//     color: white;
+//     text-align: center;
+//     padding: 40px 20px;
+// }
+// .promo-section h1 {
+//     font-size: 3em;
+//     margin: 0;
+// }
+// .promo-section p {
+//     font-size: 1.5em;
+//     margin: 10px 0 20px;
+// }
+// .order-button {
+//     background-color: #ffcc00;
+//     color: #b00000;
+//     padding: 15px 30px;
+//     font-size: 1.2em;
+//     text-decoration: none;
+//     border-radius: 5px;
+//     display: inline-block;
+// }
+// .product-container {
+//     display: flex;
+//     justify-content: center;
+//     flex-wrap: wrap;
+//     margin-top: 30px;
+// }
+// .product-box {
+//     background-color: white;
+//     margin: 10px;
+//     padding: 20px;
+//     border-radius: 10px;
+//     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+//     width: 200px;
+//     text-align: center;
+// }
+// .product-box img {
+//     max-width: 100%;
+//     border-radius: 5px;
+// }
+// .no-sugar-badge {
+//     background-color: yellow;
+//     color: red;
+//     padding: 5px 10px;
+//     border-radius: 20px;
+//     position: absolute;
+//     margin-left: 50%;
+//     transform: translateX(-50%);
+//     top: 10px;
+// }
