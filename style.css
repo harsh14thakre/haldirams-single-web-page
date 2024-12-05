@@ -152,4 +152,10 @@
 #section6 img {
   width: 620px;
   height: 350px;
+}
+
+.horizontalimg img {
+  width: 98.9%;
+  padding-left: 45px;
+  padding-right: 30px;
 }/*# sourceMappingURL=style.css.map */
