@@ -158,4 +158,21 @@
   width: 98.9%;
   padding-left: 45px;
   padding-right: 30px;
+}
+
+footer div {
+  height: 25vh;
+  background-color: #fbc02d;
+}
+footer div ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+footer div ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: larger;
 }/*# sourceMappingURL=style.css.map */
