@@ -160,19 +160,77 @@
   padding-right: 30px;
 }
 
-footer div {
-  height: 25vh;
-  background-color: #fbc02d;
+#about {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  gap: 33px;
 }
-footer div ul {
+#about h1 {
+  font-size: xx-large;
+}
+#about p {
+  font-size: large;
+  font-family: arial;
+  font-weight: 50px;
+}
+#about button {
+  font-size: larger;
+  padding: 10px 10px 10px 10px;
+  background-color: orangered;
+  border: none;
+}
+
+#befooter .sign {
+  height: 20vh;
+  background-color: #fbc02d;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  list-style: none;
+  gap: 100px;
 }
-footer div ul li a {
-  text-decoration: none;
+#befooter .sign div input {
+  font-size: large;
+  padding: 10px 30px 10px 6px;
+  border: none;
+}
+#befooter .sign div button {
+  font-size: large;
+  padding: 10px 7px 10px 7px;
+  border: none;
+  background-color: orangered;
+  color: white;
+}
+#befooter .sign p .newsletter {
+  font-size: xx-large;
+}
+#befooter .sign p .updates {
+  font-size: large;
+}
+
+footer {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 50px;
+}
+footer div {
+  line-height: 35px;
+}
+footer div img {
+  width: 270px;
+}
+footer div p span {
+  font-size: larger;
+  font-weight: 600;
+}
+footer div p a {
+  font-size: larger;
   color: black;
+}
+footer div ul li {
+  list-style: none;
   font-size: larger;
 }/*# sourceMappingURL=style.css.map */

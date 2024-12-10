@@ -160,30 +160,94 @@
    
 }
 }
+#about{
+    h1{
+        font-size: xx-large;
+    }
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 33px;
+    
+    p{
+        font-size: large;
+        font-family: arial;
+        font-weight: 50px;
+    }
+    button{
+        font-size: larger;
+        padding: 10px 10px 10px 10px;
+        background-color: orangered;
+        border: none;
+    }
+    
+}
 
-footer{
-    div{
-        height: 25vh;
+#befooter{
+    .sign{
+        height: 20vh;
         background-color:  #fbc02d;
-        ul{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 60px;
-            list-style: none;
-            li{
-                a{
-                    text-decoration: none;
-                    color: black;
-                    font-size: larger;
-                }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+        div{
+            input{
+                font-size: large;
+                padding: 10px 30px 10px 6px;
+                border: none;
+            }
+          button{
+            font-size: large;
+            padding: 10px 7px 10px 7px;
+            border: none;
+            background-color: orangered;
+            color: white;
+
+          }
+        }
+        p{
+            .newsletter{
+                font-size: xx-large;
+            }
+            .updates{
+                font-size: large;
             }
         }
     }
 }
 
 
-
+footer{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 50px;
+    div{
+        img{
+            width: 270px;
+        }
+        line-height: 35px;
+        p{
+            span{
+                font-size: larger;
+                font-weight: 600;
+            }
+            a{
+                font-size: larger;
+                color: black;
+            }
+        }
+        ul{
+            li{
+                list-style: none;
+                font-size: larger;
+            }
+        }
+    }
+}
 
 
 
