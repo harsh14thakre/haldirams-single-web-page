@@ -6,9 +6,29 @@
 }
 
 .marquee {
-  padding-left: 20px;
-  padding-right: 20px;
   background-color: #fbc02d;
+  color: #333;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  height: 35px;
+  padding-right: 30px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.location button {
+  border: none;
+  background-color: rgb(231, 3, 3);
+  width: 100px;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 20px 20px 20px 20px;
+  color: rgb(255, 255, 255);
 }
 
 .head {
@@ -213,6 +233,7 @@ footer {
   height: 70vh;
   display: flex;
   justify-content: center;
+  padding-left: 70px;
   padding-top: 40px;
   gap: 50px;
 }
@@ -233,4 +254,246 @@ footer div p a {
 footer div ul li {
   list-style: none;
   font-size: larger;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .marquee {
+    background-color: #fbc02d;
+    color: #333;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    height: 35px;
+    padding-right: 20px;
+  }
+  .location {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+  }
+  .location button {
+    border: none;
+    background-color: rgb(231, 3, 3);
+    width: 100px;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 20px 20px 20px 20px;
+    color: rgb(255, 255, 255);
+  }
+  .head {
+    padding-left: 0;
+    padding-right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16%;
+    height: 13vh;
+  }
+  .head img {
+    height: 75px;
+  }
+  .head .search input {
+    padding: 14px 5px 14px 5px;
+    background-color: rgb(236, 230, 230);
+    font-size: 15px;
+    border: none;
+  }
+  .head .search button {
+    background-color: red;
+    padding: 15px 10px 14px 10px;
+    border: none;
+  }
+  .icons {
+    display: flex;
+    gap: 5px;
+  }
+  #navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #fbc02d;
+    height: 4vh;
+  }
+  #navbar nav {
+    display: flex;
+  }
+  #navbar nav ul {
+    display: flex;
+    gap: 10px;
+  }
+  #navbar nav ul li {
+    list-style: none;
+  }
+  #navbar nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  #section1 {
+    margin-top: 20px;
+    background: url(https://www.haldirams.com/media/wysiwyg/Sugar_Free_Web_1920x600px_1.jpg) no-repeat center center/cover;
+    height: 70vh;
+  }
+  #section2 {
+    margin-top: 70px;
+  }
+  #section2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+  }
+  .box {
+    border: 1px solid rgb(206, 202, 202);
+    padding-top: 10px;
+    padding-bottom: 7px;
+  }
+  .box img {
+    height: 250px;
+  }
+  .boxes {
+    margin-left: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+  }
+  .boxes .price {
+    text-align: center;
+  }
+  .boxes .price p {
+    padding-top: 10px;
+  }
+  .boxes .price p button {
+    background-color: orangered;
+    padding: 15px 90px 15px 90px;
+    border: none;
+  }
+  .boxes .price p button a {
+    text-decoration: none;
+    color: white;
+  }
+  .btn {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .cards img {
+    width: 400px;
+    height: 400px;
+  }
+  .cards .cardprice {
+    text-align: center;
+  }
+  #section5 h1 {
+    font-size: 50px;
+  }
+  #section6 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #section6 img {
+    width: 620px;
+    height: 350px;
+  }
+  .horizontalimg img {
+    width: 98.9%;
+    padding-left: 45px;
+    padding-right: 30px;
+  }
+  #about {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    gap: 33px;
+  }
+  #about h1 {
+    font-size: xx-large;
+  }
+  #about p {
+    font-size: large;
+    font-family: arial;
+    font-weight: 50px;
+  }
+  #about button {
+    font-size: larger;
+    padding: 10px 10px 10px 10px;
+    background-color: orangered;
+    border: none;
+  }
+  #befooter .sign {
+    height: 20vh;
+    background-color: #fbc02d;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  #befooter .sign div input {
+    font-size: large;
+    padding: 10px 30px 10px 6px;
+    border: none;
+  }
+  #befooter .sign div button {
+    font-size: large;
+    padding: 10px 7px 10px 7px;
+    border: none;
+    background-color: orangered;
+    color: white;
+  }
+  #befooter .sign p .newsletter {
+    font-size: xx-large;
+  }
+  #befooter .sign p .updates {
+    font-size: large;
+  }
+  footer {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding-left: 35px;
+    padding-top: 40px;
+    gap: 12px;
+  }
+  footer div {
+    line-height: 35px;
+  }
+  footer div h2 {
+    font-size: large;
+  }
+  footer div img {
+    width: 270px;
+  }
+  footer div p span {
+    font-size: small;
+    font-weight: 600;
+  }
+  footer div p a {
+    font-size: small;
+    color: black;
+  }
+  footer div ul li {
+    list-style: none;
+    font-size: small;
+  }
 }/*# sourceMappingURL=style.css.map */
